@@ -64,9 +64,11 @@ td{
 	text-align: center;
 	font-size: 30px;
 	color: #ffffff;
+	cursor:pointer;
 }
 .orange td{
-	color: #ff7300;
+	background-color: #ff7300;
+	color:white
 }
 td:active{
 	background-color: #00000000;
