@@ -27,7 +27,7 @@ function equalTo(){
 		b += num[i];						
 	}
 
-	ans = eval(b);	
+	ans = eval(num.join(''));	
 
 	document.getElementById('screen').innerHTML = ans;
 
